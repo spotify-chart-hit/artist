@@ -1,1 +1,15 @@
+{
+  "name": "artist",
+  "version": "1.0.0",
+  "main": "artist-americas.js",
+  "scripts": {
+    "americas": "node artist-americas.js",
+    "europe": "node artist-europe.js",
+    "asia": "node artist-asia.js",
+    "mea": "node artist-mea.js"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}
 
