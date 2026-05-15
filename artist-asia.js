@@ -92,12 +92,37 @@ const weeklyJson =
 await weekly.json();
 
 return {
+
 daily:
-dailyJson.latestDate,
+
+dailyJson
+?.displayChart
+?.chartMetadata
+?.dimensions
+?.latestDate
+
+||
+
+dailyJson
+?.displayChart
+?.date,
 
 weekly:
-weeklyJson.latestDate
+
+weeklyJson
+?.displayChart
+?.chartMetadata
+?.dimensions
+?.latestDate
+
+||
+
+weeklyJson
+?.displayChart
+?.date
+
 };
+
 
 }
 
