@@ -1,0 +1,22 @@
+[
+  {
+    "country": "SA",
+    "type": "weekly",
+    "rank": 160,
+    "previousRank": 154,
+    "peakRank": 3,
+    "appearances": 168,
+    "artist": "Jimin",
+    "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3"
+  },
+  {
+    "country": "SA",
+    "type": "daily",
+    "rank": 168,
+    "previousRank": 165,
+    "peakRank": 1,
+    "appearances": 1162,
+    "artist": "Jimin",
+    "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3"
+  }
+]
