@@ -1,1 +1,225 @@
+name: Artist Charts
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: artist-charts
+  cancel-in-progress: false
+
+jobs:
+
+  americas:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright
+        run: npx playwright install chromium
+
+      - name: Run Americas
+        run: node artist-americas.js
+
+      - name: Commit Americas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .
+
+          if ! git diff --cached --quiet; then
+            git commit -m "update americas"
+
+            until git push; do
+              echo "Retry push 😭"
+              git pull --rebase origin main
+              sleep 3
+            done
+          fi
+
+  europe:
+    needs: americas
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright
+        run: npx playwright install chromium
+
+      - name: Run Europe
+        run: node artist-europe.js
+
+      - name: Commit Europe
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .
+
+          if ! git diff --cached --quiet; then
+            git commit -m "update europe"
+
+            until git push; do
+              echo "Retry push 😭"
+              git pull --rebase origin main
+              sleep 3
+            done
+          fi
+
+  asia:
+    needs: europe
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright
+        run: npx playwright install chromium
+
+      - name: Run Asia
+        run: node artist-asia.js
+
+      - name: Commit Asia
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .
+
+          if ! git diff --cached --quiet; then
+            git commit -m "update asia"
+
+            until git push; do
+              echo "Retry push 😭"
+              git pull --rebase origin main
+              sleep 3
+            done
+          fi
+
+  mea:
+    needs: asia
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright
+        run: npx playwright install chromium
+
+      - name: Run MEA
+        run: node artist-mea.js
+
+      - name: Commit MEA
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .
+
+          if ! git diff --cached --quiet; then
+            git commit -m "update mea"
+
+            until git push; do
+              echo "Retry push 😭"
+              git pull --rebase origin main
+              sleep 3
+            done
+          fi
+
+  merge:
+    needs: mea
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Pull latest files
+        run: |
+          git pull origin main
+          sleep 5
+
+      - name: Run Merge
+        run: node merge-artist.js
+
+      - name: Commit artist
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add artist.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "update artist"
+
+            until git push; do
+              echo "Retry push 😭"
+              git pull --rebase origin main
+              sleep 3
+            done
+          fi
 
