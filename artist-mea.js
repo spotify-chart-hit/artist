@@ -266,6 +266,18 @@ previousRank
 let direction = "=";
 
 
+if (
+
+currentRank <
+previousRank
+
+) {
+
+direction =
+"up";
+
+}
+
 else if (
 
 currentRank >
@@ -275,8 +287,6 @@ previousRank
 
 direction =
 "down";
-
-}
 
 }
 
