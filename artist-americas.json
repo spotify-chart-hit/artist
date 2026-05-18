@@ -28,13 +28,13 @@
   {
     "country": "CL",
     "type": "daily",
-    "rank": 93,
-    "previousRank": 104,
+    "rank": 78,
+    "previousRank": 93,
     "peakRank": 29,
-    "appearances": 860,
+    "appearances": 861,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 11,
+    "rankChange": 15,
     "direction": "up",
     "entryStatus": "MOVED_UP"
   },
@@ -54,10 +54,23 @@
   {
     "country": "CR",
     "type": "daily",
+    "rank": 156,
+    "previousRank": 192,
+    "peakRank": 40,
+    "appearances": 760,
+    "artist": "Jimin",
+    "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
+    "rankChange": 36,
+    "direction": "up",
+    "entryStatus": "MOVED_UP"
+  },
+  {
+    "country": "SV",
+    "type": "daily",
     "rank": 192,
     "previousRank": -1,
-    "peakRank": 40,
-    "appearances": 759,
+    "peakRank": 15,
+    "appearances": 887,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
     "rankChange": 193,
@@ -67,15 +80,15 @@
   {
     "country": "PY",
     "type": "daily",
-    "rank": 126,
-    "previousRank": 116,
+    "rank": 87,
+    "previousRank": 126,
     "peakRank": 6,
-    "appearances": 984,
+    "appearances": 985,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 10,
-    "direction": "down",
-    "entryStatus": "MOVED_DOWN"
+    "rankChange": 39,
+    "direction": "up",
+    "entryStatus": "MOVED_UP"
   },
   {
     "country": "VE",
@@ -89,5 +102,18 @@
     "rankChange": 6,
     "direction": "up",
     "entryStatus": "MOVED_UP"
+  },
+  {
+    "country": "VE",
+    "type": "daily",
+    "rank": 33,
+    "previousRank": -1,
+    "peakRank": 33,
+    "appearances": 1,
+    "artist": "Jimin",
+    "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
+    "rankChange": 34,
+    "direction": "down",
+    "entryStatus": "NEW_ENTRY"
   }
 ]
