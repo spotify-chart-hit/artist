@@ -15,15 +15,15 @@
   {
     "country": "BG",
     "type": "daily",
-    "rank": 21,
-    "previousRank": 44,
+    "rank": 35,
+    "previousRank": 21,
     "peakRank": 1,
-    "appearances": 945,
+    "appearances": 946,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 23,
-    "direction": "up",
-    "entryStatus": "MOVED_UP"
+    "rankChange": 14,
+    "direction": "down",
+    "entryStatus": "MOVED_DOWN"
   },
   {
     "country": "BO",
@@ -35,6 +35,19 @@
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
     "rankChange": 200,
+    "direction": "down",
+    "entryStatus": "RE_ENTRY"
+  },
+  {
+    "country": "BO",
+    "type": "daily",
+    "rank": 130,
+    "previousRank": -1,
+    "peakRank": 8,
+    "appearances": 1011,
+    "artist": "Jimin",
+    "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
+    "rankChange": 131,
     "direction": "down",
     "entryStatus": "RE_ENTRY"
   },
@@ -55,14 +68,14 @@
     "country": "BY",
     "type": "daily",
     "rank": 5,
-    "previousRank": 4,
+    "previousRank": 5,
     "peakRank": 1,
-    "appearances": 832,
+    "appearances": 833,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 1,
-    "direction": "down",
-    "entryStatus": "MOVED_DOWN"
+    "rankChange": 0,
+    "direction": "=",
+    "entryStatus": "NO_CHANGE"
   },
   {
     "country": "CL",
@@ -80,15 +93,15 @@
   {
     "country": "CL",
     "type": "daily",
-    "rank": 78,
-    "previousRank": 93,
+    "rank": 94,
+    "previousRank": 78,
     "peakRank": 29,
-    "appearances": 861,
+    "appearances": 862,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 15,
-    "direction": "up",
-    "entryStatus": "MOVED_UP"
+    "rankChange": 16,
+    "direction": "down",
+    "entryStatus": "MOVED_DOWN"
   },
   {
     "country": "CR",
@@ -106,15 +119,15 @@
   {
     "country": "CR",
     "type": "daily",
-    "rank": 156,
-    "previousRank": 192,
+    "rank": 193,
+    "previousRank": 156,
     "peakRank": 40,
-    "appearances": 760,
+    "appearances": 761,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 36,
-    "direction": "up",
-    "entryStatus": "MOVED_UP"
+    "rankChange": 37,
+    "direction": "down",
+    "entryStatus": "MOVED_DOWN"
   },
   {
     "country": "JP",
@@ -184,28 +197,28 @@
   {
     "country": "LV",
     "type": "daily",
-    "rank": 31,
-    "previousRank": 24,
+    "rank": 173,
+    "previousRank": 31,
     "peakRank": 1,
-    "appearances": 700,
+    "appearances": 701,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 7,
+    "rankChange": 142,
     "direction": "down",
     "entryStatus": "MOVED_DOWN"
   },
   {
     "country": "PY",
     "type": "daily",
-    "rank": 87,
-    "previousRank": 126,
+    "rank": 159,
+    "previousRank": 87,
     "peakRank": 6,
-    "appearances": 985,
+    "appearances": 986,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 39,
-    "direction": "up",
-    "entryStatus": "MOVED_UP"
+    "rankChange": 72,
+    "direction": "down",
+    "entryStatus": "MOVED_DOWN"
   },
   {
     "country": "SA",
@@ -258,19 +271,6 @@
     "rankChange": 2,
     "direction": "down",
     "entryStatus": "MOVED_DOWN"
-  },
-  {
-    "country": "SV",
-    "type": "daily",
-    "rank": 192,
-    "previousRank": -1,
-    "peakRank": 15,
-    "appearances": 887,
-    "artist": "Jimin",
-    "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 193,
-    "direction": "down",
-    "entryStatus": "RE_ENTRY"
   },
   {
     "country": "TH",
@@ -336,18 +336,5 @@
     "rankChange": 6,
     "direction": "up",
     "entryStatus": "MOVED_UP"
-  },
-  {
-    "country": "VE",
-    "type": "daily",
-    "rank": 33,
-    "previousRank": -1,
-    "peakRank": 33,
-    "appearances": 1,
-    "artist": "Jimin",
-    "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 34,
-    "direction": "down",
-    "entryStatus": "NEW_ENTRY"
   }
 ]
