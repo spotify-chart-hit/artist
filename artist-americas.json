@@ -15,13 +15,13 @@
   {
     "country": "BO",
     "type": "daily",
-    "rank": 156,
-    "previousRank": 130,
+    "rank": 200,
+    "previousRank": 156,
     "peakRank": 8,
-    "appearances": 1012,
+    "appearances": 1013,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 26,
+    "rankChange": 44,
     "direction": "down",
     "entryStatus": "MOVED_DOWN"
   },
@@ -41,13 +41,13 @@
   {
     "country": "CL",
     "type": "daily",
-    "rank": 97,
-    "previousRank": 94,
+    "rank": 103,
+    "previousRank": 97,
     "peakRank": 29,
-    "appearances": 863,
+    "appearances": 864,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 3,
+    "rankChange": 6,
     "direction": "down",
     "entryStatus": "MOVED_DOWN"
   },
@@ -65,6 +65,32 @@
     "entryStatus": "MOVED_DOWN"
   },
   {
+    "country": "CR",
+    "type": "daily",
+    "rank": 177,
+    "previousRank": -1,
+    "peakRank": 40,
+    "appearances": 762,
+    "artist": "Jimin",
+    "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
+    "rankChange": 178,
+    "direction": "down",
+    "entryStatus": "RE_ENTRY"
+  },
+  {
+    "country": "PY",
+    "type": "daily",
+    "rank": 179,
+    "previousRank": -1,
+    "peakRank": 6,
+    "appearances": 987,
+    "artist": "Jimin",
+    "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
+    "rankChange": 180,
+    "direction": "down",
+    "entryStatus": "RE_ENTRY"
+  },
+  {
     "country": "VE",
     "type": "weekly",
     "rank": 43,
@@ -80,13 +106,13 @@
   {
     "country": "VE",
     "type": "daily",
-    "rank": 38,
+    "rank": 54,
     "previousRank": -1,
-    "peakRank": 38,
+    "peakRank": 54,
     "appearances": 1,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 39,
+    "rankChange": 55,
     "direction": "down",
     "entryStatus": "NEW_ENTRY"
   }
