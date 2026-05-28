@@ -15,15 +15,15 @@
   {
     "country": "JP",
     "type": "daily",
-    "rank": 75,
-    "previousRank": 78,
+    "rank": 82,
+    "previousRank": 75,
     "peakRank": 13,
-    "appearances": 1182,
+    "appearances": 1183,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 3,
-    "direction": "up",
-    "entryStatus": "MOVED_UP"
+    "rankChange": 7,
+    "direction": "down",
+    "entryStatus": "MOVED_DOWN"
   },
   {
     "country": "SG",
@@ -41,13 +41,13 @@
   {
     "country": "SG",
     "type": "daily",
-    "rank": 35,
-    "previousRank": 37,
+    "rank": 31,
+    "previousRank": 35,
     "peakRank": 2,
-    "appearances": 1219,
+    "appearances": 1220,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 2,
+    "rankChange": 4,
     "direction": "up",
     "entryStatus": "MOVED_UP"
   },
@@ -70,7 +70,7 @@
     "rank": 24,
     "previousRank": 24,
     "peakRank": 1,
-    "appearances": 1389,
+    "appearances": 1390,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
     "rankChange": 0,
@@ -94,14 +94,14 @@
     "country": "TW",
     "type": "daily",
     "rank": 84,
-    "previousRank": 81,
+    "previousRank": 84,
     "peakRank": 4,
-    "appearances": 1191,
+    "appearances": 1192,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 3,
-    "direction": "down",
-    "entryStatus": "MOVED_DOWN"
+    "rankChange": 0,
+    "direction": "=",
+    "entryStatus": "NO_CHANGE"
   },
   {
     "country": "TH",
@@ -119,13 +119,13 @@
   {
     "country": "TH",
     "type": "daily",
-    "rank": 88,
-    "previousRank": 89,
+    "rank": 81,
+    "previousRank": 88,
     "peakRank": 1,
-    "appearances": 1268,
+    "appearances": 1269,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 1,
+    "rankChange": 7,
     "direction": "up",
     "entryStatus": "MOVED_UP"
   }
