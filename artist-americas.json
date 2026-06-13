@@ -2,13 +2,13 @@
   {
     "country": "BO",
     "type": "daily",
-    "rank": 189,
-    "previousRank": 187,
+    "rank": 200,
+    "previousRank": 189,
     "peakRank": 8,
-    "appearances": 1027,
+    "appearances": 1028,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 2,
+    "rankChange": 11,
     "direction": "down",
     "entryStatus": "MOVED_DOWN"
   },
@@ -28,15 +28,28 @@
   {
     "country": "CL",
     "type": "daily",
-    "rank": 80,
-    "previousRank": 78,
+    "rank": 86,
+    "previousRank": 80,
     "peakRank": 29,
-    "appearances": 886,
+    "appearances": 887,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 2,
+    "rankChange": 6,
     "direction": "down",
     "entryStatus": "MOVED_DOWN"
+  },
+  {
+    "country": "CR",
+    "type": "daily",
+    "rank": 197,
+    "previousRank": -1,
+    "peakRank": 40,
+    "appearances": 770,
+    "artist": "Jimin",
+    "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
+    "rankChange": 198,
+    "direction": "down",
+    "entryStatus": "RE_ENTRY"
   },
   {
     "country": "PY",
@@ -54,15 +67,15 @@
   {
     "country": "PY",
     "type": "daily",
-    "rank": 122,
-    "previousRank": -1,
+    "rank": 146,
+    "previousRank": 122,
     "peakRank": 6,
-    "appearances": 1007,
+    "appearances": 1008,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 123,
+    "rankChange": 24,
     "direction": "down",
-    "entryStatus": "RE_ENTRY"
+    "entryStatus": "MOVED_DOWN"
   },
   {
     "country": "VE",
@@ -76,18 +89,5 @@
     "rankChange": 4,
     "direction": "up",
     "entryStatus": "MOVED_UP"
-  },
-  {
-    "country": "VE",
-    "type": "daily",
-    "rank": 53,
-    "previousRank": -1,
-    "peakRank": 53,
-    "appearances": 1,
-    "artist": "Jimin",
-    "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 54,
-    "direction": "down",
-    "entryStatus": "NEW_ENTRY"
   }
 ]
