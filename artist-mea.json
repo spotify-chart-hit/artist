@@ -11,5 +11,18 @@
     "rankChange": 11,
     "direction": "down",
     "entryStatus": "MOVED_DOWN"
+  },
+  {
+    "country": "SA",
+    "type": "daily",
+    "rank": 198,
+    "previousRank": -1,
+    "peakRank": 1,
+    "appearances": 1188,
+    "artist": "Jimin",
+    "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
+    "rankChange": 199,
+    "direction": "down",
+    "entryStatus": "RE_ENTRY"
   }
 ]
