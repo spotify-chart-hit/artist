@@ -18,7 +18,7 @@
     "rank": 2,
     "previousRank": 2,
     "peakRank": 1,
-    "appearances": 880,
+    "appearances": 881,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
     "rankChange": 0,
@@ -37,5 +37,18 @@
     "rankChange": 30,
     "direction": "down",
     "entryStatus": "MOVED_DOWN"
+  },
+  {
+    "country": "BG",
+    "type": "daily",
+    "rank": 168,
+    "previousRank": -1,
+    "peakRank": 1,
+    "appearances": 992,
+    "artist": "Jimin",
+    "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
+    "rankChange": 169,
+    "direction": "down",
+    "entryStatus": "RE_ENTRY"
   }
 ]
