@@ -15,14 +15,14 @@
   {
     "country": "CL",
     "type": "daily",
-    "rank": 52,
-    "previousRank": 64,
+    "rank": 70,
+    "previousRank": 52,
     "peakRank": 29,
-    "appearances": 917,
+    "appearances": 918,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 12,
-    "direction": "up",
-    "entryStatus": "MOVED_UP"
+    "rankChange": 18,
+    "direction": "down",
+    "entryStatus": "MOVED_DOWN"
   }
 ]
