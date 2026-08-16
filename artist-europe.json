@@ -15,27 +15,14 @@
   {
     "country": "BY",
     "type": "daily",
-    "rank": 5,
+    "rank": 7,
     "previousRank": 5,
     "peakRank": 1,
-    "appearances": 921,
+    "appearances": 922,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 0,
-    "direction": "=",
-    "entryStatus": "NO_CHANGE"
-  },
-  {
-    "country": "BG",
-    "type": "daily",
-    "rank": 109,
-    "previousRank": 134,
-    "peakRank": 1,
-    "appearances": 999,
-    "artist": "Jimin",
-    "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 25,
-    "direction": "up",
-    "entryStatus": "MOVED_UP"
+    "rankChange": 2,
+    "direction": "down",
+    "entryStatus": "MOVED_DOWN"
   }
 ]
