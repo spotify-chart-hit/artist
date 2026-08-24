@@ -16,13 +16,13 @@
     "country": "BY",
     "type": "daily",
     "rank": 6,
-    "previousRank": 7,
+    "previousRank": 6,
     "peakRank": 1,
-    "appearances": 929,
+    "appearances": 930,
     "artist": "Jimin",
     "image": "https://i.scdn.co/image/ab67616100005174cf3a9c35db52ba44f3b921e3",
-    "rankChange": 1,
-    "direction": "up",
-    "entryStatus": "MOVED_UP"
+    "rankChange": 0,
+    "direction": "=",
+    "entryStatus": "NO_CHANGE"
   }
 ]
